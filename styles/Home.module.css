@@ -35,7 +35,7 @@
   align-items: center;
 }
 
-.title a {
+.title span {
   color: #0070f3;
   text-decoration: none;
 }
@@ -60,6 +60,10 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.description a {
+  text-decoration: underline;
 }
 
 .code {
